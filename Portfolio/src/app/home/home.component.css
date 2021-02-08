@@ -1,0 +1,81 @@
+.section-1{
+  position: relative;
+  height: 88vh;
+}
+.section-1 .card{
+  z-index: 1;
+  position: absolute;
+  top: 200px;
+  padding: 17px 22px;
+  left: 20%;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+}
+.card .wave {
+  font-size: 2.5rem;
+}
+.card .name {
+  margin-left:  1rem;
+}
+.card .name label {
+  font-size: 14px;
+}
+.card h4 {
+  margin: 0;
+  font-size: 2.3rem;
+  letter-spacing: .1rem;
+}
+.bg-circle{
+width: 100%;
+  position: absolute;
+}
+.bg-circle .circle{
+  background: rgb(236,241,247);
+  background: -moz-linear-gradient(100deg, rgba(236,241,247,1) 0%, rgba(218,225,235,1) 100%);
+  background: -webkit-linear-gradient(100deg, rgba(236,241,247,1) 0%, rgba(218,225,235,1) 100%);
+  background: linear-gradient(100deg, rgba(236,241,247,1) 0%, rgba(218,225,235,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ecf1f7",endColorstr="#dae1eb",GradientType=1);
+  border-radius: 50%;
+  height: 40rem;
+  width: 40rem;
+  margin: 6rem auto;
+}
+
+.bg-circle .circle-sm{
+  background-color:#dae1eb !important;
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  bottom: 150px;
+  left: 122px;
+}
+.bg-circle .circle-xs{
+  background-color:#dae1eb !important;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3em;
+  position: absolute;
+  bottom: 250px;
+  left: 20%;
+}
+
+.card.card-1 {
+  top: 350px !important;
+  left: 25% !important;
+}
+
+.plant{
+  position: absolute;
+  bottom: 80px;
+  left: 30%;
+}
+
+.table-svg{
+  position: absolute;
+  top: 80px;
+  right: 20%;
+}
