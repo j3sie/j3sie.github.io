@@ -15,22 +15,23 @@
   align-items: center;
 }
 .card .wave {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 .card .name {
   margin-left:  1rem;
 }
 .card .name label {
-  font-size: 14px;
+  font-size: 15px;
 }
 .card h4 {
   margin: 0;
-  font-size: 2.3rem;
+  font-size: 4rem;
   letter-spacing: .1rem;
 }
 .bg-circle{
 width: 100%;
   position: absolute;
+  bottom: 0;
 }
 .bg-circle .circle{
   background: rgb(236,241,247);
@@ -41,7 +42,13 @@ width: 100%;
   border-radius: 50%;
   height: 40rem;
   width: 40rem;
-  margin: 6rem auto;
+  margin: 6rem auto 0;
+  display: flex;
+  justify-content: center;
+}
+.bg-circle .circle img{
+  object-fit: contain;
+  width: 580px;
 }
 
 .bg-circle .circle-sm{
@@ -71,11 +78,50 @@ width: 100%;
 .plant{
   position: absolute;
   bottom: 80px;
-  left: 30%;
+  left: 27%;
 }
 
 .table-svg{
   position: absolute;
   top: 80px;
   right: 20%;
+}
+
+.code-svg {
+  position: absolute;
+  right: 16%;
+  top: 503px;
+}
+
+
+/* section 2 */
+
+.section-2{
+  margin: 0 8rem;
+}
+
+.section-title {
+  text-align: center;
+  font-family: 'Lato-Black';
+  font-size: 2rem;
+}
+.skills{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.icon-skills{
+  font-size: 5rem;
+  padding: 1rem;
+  color: #dae1eb;
+}
+.icon-skills:hover{
+  color: #4a52ad;
+}
+.experience{
+  margin-top: 3rem;
+  display: flex;
+}
+.experience .skill-svg{
+  flex: 1;
 }
