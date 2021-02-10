@@ -28,21 +28,46 @@
 <div class="section-2">
   <h3 class="section-title">Skills and Experience</h3>
     <div class="skills">
-      <i alt="wordpress" class="fab icon-skills fa-wordpress"></i>
       <i class="fab icon-skills fa-angular"></i>
       <i class="fab icon-skills fa-vuejs"></i>
       <i class="fab icon-skills  fa-node-js"></i>
+      <span class="iconify icon-skills" data-icon="logos-graphql" data-inline="false"></span>
+      <span class="iconify icon-skills" data-icon="cib:typescript" data-inline="false"></span>
+      <span class="iconify icon-skills" data-icon="cib:nativescript" data-inline="false"></span>
       <i class="fab icon-skills fa-js"></i>
       <i class="fab fa-html5 icon-skills"></i>
       <i class="fab icon-skills fa-css3"></i>
-    </div>
-    <div class="experience">
-      <img class="skill-svg" width="500" src="../../assets/img/skills.svg" alt="">
-      <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quos ipsum animi asperiores perspiciatis non.
-      Error magni minus voluptates pariatur, blanditiis assumenda rerum sequi iusto iste doloribus vitae quia dolorem!</div>
+      <i class="fab icon-skills fa-npm"></i>
+      <i class="fab icon-skills fa-php"></i>
+      <i class="fab icon-skills fa-magento"></i>
+      <i alt="wordpress" class="fab icon-skills fa-wordpress"></i>
+      <i class="fab icon-skills fa-bootstrap"></i>
+      <span class="iconify icon-skills" data-icon="file-icons:adobe-photoshop" data-inline="false"></span>
 
     </div>
+    <div class="center-item">
+      <div class="experience">
+        <img class="skill-svg" width="500" src="../../assets/img/skills.svg" alt="">
+        <div class="experience-panel">
+          <div *ngFor="let exp of experinces" class="experience-cont">
+            <div class="exp-year">{{exp.year}}</div>
+            <div class="exp-details">
+              <h4 class="exp-position">{{exp.position}}</h4>
+              <div class="exp-company">{{exp.company}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="section-3 bg-default">
+  <div class="center-item " >
+    <div class="big-companies">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quia, eum perspiciatis
+    quo hic magnam sequi at quisquam ducimus provident, est maxime dicta assumenda qui
+    consequuntur deleniti nobis dolores soluta.</p>
+    </div>
 
-
+  </div>
 
 </div>
